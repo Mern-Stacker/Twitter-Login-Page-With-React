@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #594EFD
+
+}
+.logo-box{
+  background-color:aliceblue;
+  padding: 20px 120px;
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  border-radius: 10px;
+  text-align: center;
+}
+.logo{
+width: 35px;
+margin-bottom: 20px;
+}
+.logo-box h2{
+  margin-bottom: 20px;
+}
+.logo-box button{
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #9999;
+  font-weight: 500;
+  cursor: pointer;
+}
+.logo-box button img{
+  width: 15px;
+  margin-right: 10px;
+  margin-top: 17px;
+}
+.logo-box span{
+  display: block;
+  width: 300px;
+  margin: auto;
+  background: #F0F8FF;
+  font-size: 14px;
+  margin-top: -3px;
+  background: transparent;
+}
+
+.logo-box input{
+  width: 100%;
+  margin-top: 5px;
+  background: transparent;
+  border: 1px solid #999;
+  outline: 0;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+::placeholder{
+  font-weight: 500;
+    color: rgb(9, 100, 112)
+}
+
+.logo-box form button{
+  background-color: #000;
+  color: #ffff;
+  border: 0;
+  margin-bottom: 15px;
+}
+
+.logo-box p{
+font-size: 14px;
+color: #999;
+margin: 40px 0px 25px;
+
+}
+
+.logo-box p a{
+text-decoration: none;
+color: steelblue;
+margin-left: 8px;
+}
